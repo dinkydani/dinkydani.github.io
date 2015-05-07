@@ -1,0 +1,21 @@
+{
+  "education": {
+    "university": "University of South Wales",
+    "degree": "BSc (Hons) Computer Science",
+    "grade": "First Class Honors"
+  },
+  "skills": [
+    "JavaScript",
+    "jQuery",
+    "HTML/CSS",
+    "Node.js",
+    "Python",
+    "Ruby",
+    "MongoDB",
+    "MySQL",
+    "D3.js",
+    "Sinatra",
+    "Express",
+    "OpenStack Swift"
+  ]
+}

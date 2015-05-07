@@ -1,0 +1,171 @@
+html {
+  min-width: 320px;
+  font-size: 13px;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 4rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+section {
+  padding: 0 3rem;
+  text-align: center;
+}
+
+article {
+  margin: 25px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px rgb(170, 170, 170);
+  -webkit-box-shadow: 2px 2px 8px rgb(170, 170, 170);
+  -moz-box-shadow: 2px 2px 8px rgb(170, 170, 170);
+}
+
+article h2 {
+  margin: 0 0 10px 0;
+}
+.wrapper {
+  background-color: rgba(170, 35, 100, 1);
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center{
+  text-align: center;
+}
+.cv {
+  background-color: white;
+  padding: 5px 0;
+}
+.pink-bg {
+  background-color: rgba(170, 35, 100, 1);
+  color: white;
+}
+
+.cover {
+  background: url("../img/cover.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  height: 100vh;
+  min-height: 480px;
+}
+
+.cover-wrap {
+  position: relative;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+
+.cover-wrap-inner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+}
+
+.cover-name span {
+  display: block;
+}
+
+.cover-tagline {
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cover-tagline:after {
+  content: "";
+  border-bottom: solid 2px rgba(206, 60, 129, 1);
+  display: block;
+  width: 55px;
+  margin: 12px auto;
+}
+
+.scrolldown a {
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 30px);
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.scrolldown i {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.scrolldown i:focus,
+.scrolldown i:hover,
+.scrolldown i:active {
+  color: rgba(255, 255, 255, 1);
+}
+
+.profile {
+  text-align: center;
+  padding: 4rem;
+}
+
+.profile h2 {
+  margin: 20px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 220px;
+  text-align: center;
+}
+
+.profile-img img {
+  height: 100%;
+  border-radius: 50%;
+  border: rgba(255, 255, 255, 0.4) 10px solid;
+
+}
+.social-list a {
+  font-size: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  section {
+    text-align: left;
+  }
+  .cover-name {
+    letter-spacing: 10px;
+  }
+}
