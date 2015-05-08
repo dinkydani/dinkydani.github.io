@@ -95,6 +95,8 @@ article h2 {
 
 .cover-tagline {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
 }
 
 .cover-tagline:after {
