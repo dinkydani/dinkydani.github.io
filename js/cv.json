@@ -9,13 +9,17 @@
     "jQuery",
     "HTML/CSS",
     "Node.js",
+    "Express",
     "Python",
     "Ruby",
+    "Sinatra",
     "MongoDB",
     "MySQL",
     "D3.js",
-    "Sinatra",
-    "Express",
-    "OpenStack Swift"
+    "OpenStack Swift",
+    "Git",
+    "JSON",
+    "GruntJS",
+    "Handlebars"
   ]
 }

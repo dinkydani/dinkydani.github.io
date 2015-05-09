@@ -19,16 +19,12 @@ $(function(){
   });
 
   $.getJSON("js/cv.json", function (data) {
-    console.log(data);
-    $("<p>").text(data.education.university).appendTo(".experience");
-    $("<p>").text(data.education.degree).appendTo(".experience");
-    $("<p>").text(data.education.grade).appendTo(".experience");
+    $("<p>").text(data.education.university).appendTo(".education");
+    $("<p>").text(data.education.degree).appendTo(".education");
+    $("<p>").text(data.education.grade).appendTo(".education");
 
     $.each(data.skills, function (index, skill) {
-      $("<p>").text(skill).appendTo(".skills");
+      $("<label>").addClass("label-skill").text(skill).appendTo(".skills");
     });
   });
-
-
-
 });
