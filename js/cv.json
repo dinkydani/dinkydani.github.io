@@ -9,19 +9,9 @@
     "jQuery",
     "HTML/CSS",
     "Node.js",
-    "Express",
-    "Python",
     "Ruby",
-    "Sinatra",
     "MongoDB",
     "MySQL",
-    "D3.js",
-    "Backbone.js",
-    "Git",
-    "JSON",
-    "GruntJS",
-    "Handlebars.js",
-    "OpenStack Swift",
-    "Mocha"
+    "D3.js"
   ]
 }
