@@ -16,10 +16,12 @@
     "MongoDB",
     "MySQL",
     "D3.js",
-    "OpenStack Swift",
+    "Backbone.js",
     "Git",
     "JSON",
     "GruntJS",
-    "Handlebars"
+    "Handlebars.js",
+    "OpenStack Swift",
+    "Mocha"
   ]
 }
