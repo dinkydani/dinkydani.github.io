@@ -198,4 +198,7 @@ article h2 {
     margin-right: -1px;
     padding: 15px;
   }
+  .profile-img {
+    padding: 1rem;
+  }
 }
