@@ -36,8 +36,7 @@ article h2 {
   margin: 0 0 0.8rem 0;
 }
 
-.wrapper {
-  background-color: rgba(170, 35, 100, 1);
+.content-wrap {
   position: relative;
   margin: 0 auto;
   display: flex;
@@ -49,15 +48,11 @@ article h2 {
   justify-content: center;
   -webkit-justify-content: center;
 }
-.wrapper:after {
+
+.content-wrap:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.pink-bg {
-  background-color: rgba(170, 35, 100, 1);
-  color: white;
 }
 
 .cover {
@@ -101,6 +96,7 @@ article h2 {
   display: block;
   width: 55px;
   margin: 12px auto;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .scrolldown a {
@@ -129,7 +125,9 @@ article h2 {
   flex: 1;
   -webkit-flex: 1;
   text-align: center;
-  margin: 3rem 0;
+  padding: 3rem 0;
+  background-color: rgba(170, 35, 100, 1);
+  color: white;
 }
 
 .profile h2 {
@@ -153,6 +151,10 @@ article h2 {
 
 .social {
   margin-top: 1.2rem;
+}
+
+.social li {
+  padding: 0 10px;
 }
 
 .social-list a {
@@ -184,21 +186,17 @@ article h2 {
   section {
     text-align: left;
   }
-  .wrapper {
+  .content-wrap {
     flex-direction: row;
     -webkit-flex-direction: row;
   }
   .cover-name {
     letter-spacing: 10px;
   }
-  .profile {
-    margin: 0;
-  }
-  .cv {
-    margin-right: -1px;
-    padding: 15px;
-  }
   .profile-img {
     padding: 1rem;
+  }
+  .profile-text{
+    padding: 0 3rem;
   }
 }
